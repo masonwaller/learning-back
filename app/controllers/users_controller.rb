@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  include CurrentUserConcern
 
   # Render all users
   def index
